@@ -32,3 +32,13 @@ To work on Django framework there are set of files which are created by Django b
 3. While executing above command, there will be warning (You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions. Run 'python manage.py migrate' to apply them.) As mentioned run the (python manage.py migrate) command in terminal. This will create some default tables for you. You will now see db.sqlite3 database.
 
 
+<h3><a id="superuser">4. Create Superuser (Admin)</a></h3>
+
+1. Run command (python manage.py createsuperuser) in the terminal. 
+2. Input a username in the terminal (user)
+3. Enter an email address
+4. Enter a password (password)
+
+This will create a admin user. Run the app (python manage.py runserver). Open the website. Go to admin portal (/admin). Enter the user name and password and you will be able to see the admin page.
+
+
