@@ -71,5 +71,18 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li></li>
 </ol>
 
+<h3><a id="djangoappstructure">7. Django App Structure</a></h3>
 
+<img src="./Images/djangoapp_structure.png" alt="Django App Structure"/>
+
+<ol>
+<li>User sees example.com/dogs blogpost link.</li>
+<li>As developers, we will see html template with code.</li>
+<li>db.sqlite3 blog_post table will have each row as one blog post. HTML will insert the required information from table and render them in browser. </li>
+<li>models.py is used to define the class of the blog post.</li>
+<li>urls.py contains the links of the blog. If the url is find then it notify the views.py</li>
+<li>views.py will have a Blog class. This will take care of creating the html template that will be served to the user.</li>
+<li>admin interface isused to populate data in blog_post table.</li>
+<li>If we had another page say contact us in website, it will have a different html format, a new class contact in models.py and a new table to store the information.</li>
+</ol>
 
