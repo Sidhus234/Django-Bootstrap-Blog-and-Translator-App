@@ -42,3 +42,19 @@ To work on Django framework there are set of files which are created by Django b
 This will create a admin user. Run the app (python manage.py runserver). Open the website. Go to admin portal (/admin). Enter the user name and password and you will be able to see the admin page.
 
 
+<h3><a id="emptyblogapp">5. Set up Empty Blog App</a></h3>
+
+<ol><li>Run command (python manage.py startapp blog). This will create a blog folder with multiple files in it.</li><ol>
+<li>Folder - migrations: Here all database changes will be registered. We won't be modifying the migration directory.</li>
+<li>__init__.py: This is also not modified normally. This contains initial code that will be run when the blog app starts.</li>
+<li>admin.py: Contains code that has to do with admin interface. </li>
+<li>apps.py: This is a config file for the app. No changes normallly done here.</li>
+<li>models.py: A webpage from a website has three components - model (contains database field).</li>
+<li>tests.py: To write tests when the app is ready.</li>
+<li>views.py: Second component to serve the website from Django perspective. Is an organizer (middleman) between html code and model. View gets data from model and serve it to html tempelate.</li>
+</ol>
+<li>Go to mysite directory, an dopen settings.py file. In that file, modify the INSTALLED_APPS part and add a new item to the list 'blog'</li>
+</ol>
+
+
+
