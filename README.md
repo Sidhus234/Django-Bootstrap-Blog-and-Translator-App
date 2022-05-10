@@ -73,7 +73,7 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 
 <h3><a id="djangoappstructure">7. Django App Structure</a></h3>
 
-<img src="./Images/djangoapp_structure.png" alt="Django App Structure"/>
+<img src="./images/djangoapp_structure.png" alt="Django App Structure"/>
 
 <ol>
 <li>User sees example.com/dogs blogpost link.</li>
