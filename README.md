@@ -56,5 +56,20 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>Go to mysite directory, an dopen settings.py file. In that file, modify the INSTALLED_APPS part and add a new item to the list 'blog'</li>
 </ol>
 
+<h3><a id="blogappwork">6. Blog App Work</a></h3>
+
+<ol>
+<li>Modify the models.py file in the blog directory.</li>
+<li>To apply above model to our website, run command (python manage.py makemigrations) from the terminal. This will create a database as defined in the class.</li>
+<li>To apply the above migration run the command (python manage.py migrate) from the terminal. This will apply the migrations.</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
 
 
