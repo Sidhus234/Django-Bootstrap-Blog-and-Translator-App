@@ -65,7 +65,7 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>Craete a new directory (templates) in DJANGO-BOOTSTRAP-BLOG-.. folder and create a new file blog.html.</li>
 <li>Write a standard blog template within the blog.html file. This will be used for all blog posts.</li>
 <li>To tell the webiste where the templates are, we need to add a new line in mywite/settings.py (TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates'))</li>
-<li>The html template will be connected with content with the view.py class. </li>
+<li>The html template will be connected with content with the view.py class. In blog//views.py create a BlogView class to connect html template to data.</li>
 <li></li>
 <li></li>
 <li></li>
