@@ -95,6 +95,15 @@ In admin.py file in blog directory, add (admin.site.register(Post)) line after i
 
 <ol>
 <li>Create a new "about.html" page in templates directory and edit it.</li>
-<li>In blog//views.py create a ABOUT_VIEW class for about.html page.</li>
+<li>In blog//views.py create a ABOUTVIEW class for about.html page.</li>
 <li>In blog//urls.py, add a reference to about.html page.</li>
+</ol>
+
+
+<h3><a id="homepage">9. Add Home Page</a></h3>
+
+<ol>
+<li>Create a new "index.html" page in templates directory and edit it.</li>
+<li>In blog//views.py create a PostList class for index.html page.</li>
+<li>In blog//urls.py, add a reference to index.html page.</li>
 </ol>
