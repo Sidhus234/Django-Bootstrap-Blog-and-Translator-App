@@ -89,12 +89,13 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 
 
 <h3><a id="createadminportal">8. Create Admin Portal for Blog Posts</a></h3>
+In admin.py file in blog directory, add (admin.site.register(Post)) line after importing Post class. This will allow us to edit blog posts from admin portal.
+
+<h3><a id="homepage">9. Add Home Page</a></h3>
 
 <ol>
-<li>In admin.py file in blog directory, add (admin.site.register(Post)) line after importing Post class. This will allow us to edit blog posts from admin portal.</li>
+<li>Create a new "index.html" page in templates directory and edit it.</li>
+<li>In blog//views.py create a HOME_VIEW class for index.html page.</li>
+<li>In blog//urls.py, add a reference to index.html page.</li>
 <li></li>
-<li></li>
-<li></li>
-<li></li>
-
 </ol>
