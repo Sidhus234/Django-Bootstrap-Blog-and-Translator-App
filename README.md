@@ -64,10 +64,10 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>To apply the above migration run the command (python manage.py migrate) from the terminal. This will apply the migrations.</li>
 <li>Craete a new directory (templates) in DJANGO-BOOTSTRAP-BLOG-.. folder and create a new file blog.html.</li>
 <li>Write a standard blog template within the blog.html file. This will be used for all blog posts.</li>
-<li>To tell the webiste where the templates are, we need to add a new line in mywite/settings.py (TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates'))</li>
+<li>To tell the webiste where the templates are, we need to add a new line in mywite/settings.py (TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')). Also edit the TEMPLATES list in the settings.py file and add the new TEMPLATES_DIR variable to 'DIRS' key.</li>
 <li>The html template will be connected with content with the view.py class. In blog//views.py create a BlogView class to connect html template to data.</li>
-<li></li>
-<li></li>
+<li>To test out the website, we will add a sample blog post using the DB Browser for SQLite app. Dogs blogpost was entered manually. Ideally new blog posts should be entered through the admin portal.</li>
+<li>Create a new urls.py file in blog and add a urlpatter in it. Similarly, then go to urls.py file in mysite directory and add newly created urlpatter in blog/urls.py to the urlpatter.</li>
 <li></li>
 <li></li>
 </ol>
