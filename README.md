@@ -87,3 +87,14 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>If we had another page say contact us in website, it will have a different html format, a new class contact in models.py and a new table to store the information.</li>
 </ol>
 
+
+<h3><a id="createadminportal">8. Create Admin Portal for Blog Posts</a></h3>
+
+<ol>
+<li>In admin.py file in blog directory, add (admin.site.register(Post)) line after importing Post class. This will allow us to edit blog posts from admin portal.</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+
+</ol>
