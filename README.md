@@ -62,9 +62,10 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>Modify the models.py file in the blog directory.</li>
 <li>To apply above model to our website, run command (python manage.py makemigrations) from the terminal. This will create a database as defined in the class.</li>
 <li>To apply the above migration run the command (python manage.py migrate) from the terminal. This will apply the migrations.</li>
-<li></li>
-<li></li>
-<li></li>
+<li>Craete a new directory (templates) in DJANGO-BOOTSTRAP-BLOG-.. folder and create a new file blog.html.</li>
+<li>Write a standard blog template within the blog.html file. This will be used for all blog posts.</li>
+<li>To tell the webiste where the templates are, we need to add a new line in mywite/settings.py (TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates'))</li>
+<li>The html template will be connected with content with the view.py class. </li>
 <li></li>
 <li></li>
 <li></li>
