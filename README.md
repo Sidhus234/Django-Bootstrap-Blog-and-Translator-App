@@ -107,3 +107,5 @@ In admin.py file in blog directory, add (admin.site.register(Post)) line after i
 <li>In blog//views.py create a PostList class for index.html page.</li>
 <li>In blog//urls.py, add a reference to index.html page.</li>
 </ol>
+
+
