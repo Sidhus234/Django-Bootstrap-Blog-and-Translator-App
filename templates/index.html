@@ -18,10 +18,10 @@
                     {{post.title}}
                 </h2>
                 <p class="card-text">
-                    {{post.content}}
+                    {{post.content | slice:"400"}}
                 </p>
                 <p>
-                    Author: {{post.author}}
+                    Author: {{post.author | title}}
                 </p>
                 <a class="btn btn-primary" href="{% url 'blog_view' post.slug %}">
                     Read More
