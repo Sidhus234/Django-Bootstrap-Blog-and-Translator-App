@@ -5,6 +5,24 @@ There are multiple web frameowkrs available in Python:
 2. Flask: Building small web applications for emaple translator or converting images to different format, or simpler blogs.
 3. JustPy: New framework. Doesn't require html and css knowledge to build a website. This also means its not very flexible. Not good for working with databases. 
 
+<h2>Index</h2>
+
+[1. Virtual Environment](#venv)
+
+[2. Django Project](#djangoproject)
+
+[3. Create Superuser (Admin)](#superuser)
+
+[4. Set up Empty Blog App](#emptyblogapp)
+
+[5. Blog App Work](#blogappwork)
+
+[6. Django App Structure](#djangoappstructure)
+
+[7. Create Admin Portal for Blog Posts](#createadminportal)
+
+[8. Add Home Page](#homepage)
+
 
 <h3><a id="venv">1. Virtual Environment</a></h3>
 
@@ -32,7 +50,7 @@ To work on Django framework there are set of files which are created by Django b
 3. While executing above command, there will be warning (You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions. Run 'python manage.py migrate' to apply them.) As mentioned run the (python manage.py migrate) command in terminal. This will create some default tables for you. You will now see db.sqlite3 database.
 
 
-<h3><a id="superuser">4. Create Superuser (Admin)</a></h3>
+<h3><a id="superuser">3. Create Superuser (Admin)</a></h3>
 
 1. Run command (python manage.py createsuperuser) in the terminal. 
 2. Input a username in the terminal (user)
@@ -42,7 +60,7 @@ To work on Django framework there are set of files which are created by Django b
 This will create a admin user. Run the app (python manage.py runserver). Open the website. Go to admin portal (/admin). Enter the user name and password and you will be able to see the admin page.
 
 
-<h3><a id="emptyblogapp">5. Set up Empty Blog App</a></h3>
+<h3><a id="emptyblogapp">4. Set up Empty Blog App</a></h3>
 
 <ol><li>Run command (python manage.py startapp blog). This will create a blog folder with multiple files in it.</li><ol>
 <li>Folder - migrations: Here all database changes will be registered. We won't be modifying the migration directory.</li>
@@ -56,7 +74,7 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>Go to mysite directory, an dopen settings.py file. In that file, modify the INSTALLED_APPS part and add a new item to the list 'blog'</li>
 </ol>
 
-<h3><a id="blogappwork">6. Blog App Work</a></h3>
+<h3><a id="blogappwork">5. Blog App Work</a></h3>
 
 <ol>
 <li>Modify the models.py file in the blog directory.</li>
@@ -72,7 +90,7 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li></li>
 </ol>
 
-<h3><a id="djangoappstructure">7. Django App Structure</a></h3>
+<h3><a id="djangoappstructure">6. Django App Structure</a></h3>
 
 <img src="./images/djangoapp_structure.png" alt="Django App Structure"/>
 
@@ -87,8 +105,8 @@ This will create a admin user. Run the app (python manage.py runserver). Open th
 <li>If we had another page say contact us in website, it will have a different html format, a new class contact in models.py and a new table to store the information.</li>
 </ol>
 
-
-<h3><a id="createadminportal">8. Create Admin Portal for Blog Posts</a></h3>
+    
+<h3><a id="createadminportal">7. Create Admin Portal for Blog Posts</a></h3>
 In admin.py file in blog directory, add (admin.site.register(Post)) line after importing Post class. This will allow us to edit blog posts from admin portal.
 
 <h3><a id="aboutpage">9. Add About Page</a></h3>
@@ -100,7 +118,7 @@ In admin.py file in blog directory, add (admin.site.register(Post)) line after i
 </ol>
 
 
-<h3><a id="homepage">9. Add Home Page</a></h3>
+<h3><a id="homepage">8. Add Home Page</a></h3>
 
 <ol>
 <li>Create a new "index.html" page in templates directory and edit it.</li>
