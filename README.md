@@ -23,6 +23,8 @@ There are multiple web frameowkrs available in Python:
 
 [8. Add Home Page](#homepage)
 
+[9. Steps to build App](#trasnslatorapp)
+
 
 <h3><a id="venv">1. Virtual Environment</a></h3>
 
@@ -127,3 +129,16 @@ In admin.py file in blog directory, add (admin.site.register(Post)) line after i
 </ol>
 
 
+<h3><a id="trasnslatorapp">9. Steps to build App</a></h3>
+<p>Follow below steps when creating a new app.</p>
+<ol>
+<li>Research is it possible?</li>
+<li>Create empty Django app.</li>
+<li>Top-bottom approach: <ol>
+<li>Craete html templates fromuser's perspective.</li>
+<li>Configure URLs.</li>
+<li>Create views.</li>
+<li>Create models.</li>
+<li>Connect the processing (Translation) part.</li>
+</ol></li>
+</ol>
